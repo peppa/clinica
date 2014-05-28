@@ -10,9 +10,13 @@ global $config;
 //questo è un file di configurazione, qui dovrei trovare tutto!!! però per esempio
 //qui non c'è il numero di pagine della paginazione!!! va inserito!!
 
+$config['nomeClinica']='Clinica';
+
 //SMARTY
 $config['smarty']['template_dir'] = 'templates/template/';
 $config['smarty']['compile_dir'] = 'templates/templates_c/';
+$config['smarty']['cache_dir']= 'templates/cache';
+$config['smarty']['config_dir']= 'templates/configs';
 
 //MYSQL:
 //attivare per abilitare il debug del mysql

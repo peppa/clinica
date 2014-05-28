@@ -1,3 +1,5 @@
+<?php /* Smarty version 2.6.26, created on 2014-05-28 12:50:18
+         compiled from index.tpl */ ?>
 <!DOCTYPE HTML>
 <html>
 
@@ -61,4 +63,4 @@
   <script type="text/javascript" src="js/image_fade.js"></script>
   <script type="text/javascript" src="js/lava_menu.js"></script>
 </body>
-</html>
+</html>
