@@ -1,5 +1,7 @@
 /* 
  * File creato da Carlo Centofanti
+ * 
+ * Ho separato il codice javascript dal template
  */
 
 $(function() {
