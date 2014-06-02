@@ -26,6 +26,9 @@ class EPersona {
     private $codice_fiscale;
     private $email;
     private $telefono;
+    //sti due vanno implementati coi geeter setter
+    private $username;
+    private $password;
     
      /**
      * @AssociationType Entity.EAppuntamento
