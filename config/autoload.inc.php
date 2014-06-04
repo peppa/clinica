@@ -9,7 +9,7 @@
 //cartelle giuste. in funzione del 1 carattere della stringa carico da una cartella diversa.
 
 //NOTA: questo trucco non serve se creo dei namespace!!! con i namespace
-function __autoload($class_name) {
+spl_autoload_register(function ($class_name) {
     switch ($class_name[0]) {
         case 'V':
             require_once ('View/'.$class_name.'.php');
@@ -26,6 +26,6 @@ function __autoload($class_name) {
         case 'U':
             require_once ('Foundation/Utility/'.$class_name.'.php');
     }
-}
+});
 
 ?>
